@@ -10,7 +10,8 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Columbia Bootcamp"
+title: "Columbia University FRC Bootcamp Python Section 1 🐍"
+baseurl: "/2019-01-17-columbia-section-1"
 
 
 #------------------------------------------------------------
@@ -26,7 +27,7 @@ kind: "workshop"
 repository: <USERNAME>/<PROJECT>
 
 # Email address, no mailto:
-# (Don't change this -- the contact address for your workshop will be set 
+# (Don't change this -- the contact address for your workshop will be set
 # in the index.md file)
 email: "team@carpentries.org"
 
@@ -35,10 +36,10 @@ amy_site: "https://amy.software-carpentry.org/workshops"
 carpentries_github: "https://github.com/carpentries"
 carpentries_pages: "https://carpentries.github.io"
 carpentries_site: "https://carpentries.org/"
-dc_site: "https://datacarpentry.org"
+dc_site: "http://datacarpentry.org"
 example_repo: "https://github.com/carpentries/lesson-example"
 example_site: "https://carpentries.github.io/lesson-example"
-lc_site: "https://librarycarpentry.org/"
+lc_site: "https://librarycarpentry.github.io/"
 swc_github: "https://github.com/swcarpentry"
 swc_pages: "https://swcarpentry.github.io"
 swc_site: "https://software-carpentry.org"
@@ -91,6 +92,7 @@ exclude:
   - Makefile
   - bin/
   - .Rproj.user/
+  - vendor
 
 # Turn on built-in syntax highlighting.
 highlighter: rouge
